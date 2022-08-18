@@ -20,7 +20,7 @@ function App() {
         <div className="card-body">
           <h5 className="card-title">{userData.name}</h5>
           <p className="card-text">
-            {userData.name} is a {userData.species} from {userData.origin.name}
+            {userData.name} is a {userData.species} from {userData.origin?.name}
           </p>
         </div>
       </div>
